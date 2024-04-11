@@ -7,14 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Santiago Soler",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.6.8",
-    "express": "^4.19.2",
-    "express-router": "^0.0.1",
-    "fs": "^0.0.1-security",
-    "node-fetch": "^3.3.2",
-    "vercel": "^34.0.0"
-  }
+    "express": "^4.19.2"
+  },
+  "devDependencies": {}
 }
