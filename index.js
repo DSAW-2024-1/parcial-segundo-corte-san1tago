@@ -5,7 +5,8 @@ import { CoinRouter } from './routes/coin.js';
 
 const app = express();
 const PORT = 3000;
-
+app.get('/', (req, res) => {
+    res.send('working: santiago');
 app.use(express.json());
 
 app.use('/users', UsersRouter.router());
