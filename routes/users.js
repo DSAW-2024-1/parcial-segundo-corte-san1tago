@@ -36,7 +36,7 @@ export class UsersRouter {
   static router() {
     const router = express.Router();
 
-    router.get('/', (req, res) => {
+    router.get('/:count', (req, res) => {
       let count = req.query.count || users.length;
       const sort = req.query.sort || 'ASC';
       let sortedUsers = [...users];
